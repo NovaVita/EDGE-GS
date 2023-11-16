@@ -68,9 +68,11 @@ O Soul é um dispositivo de monitoramento de saúde que se integra perfeitamente
 
 ## **Configuração**
 
-O site do NovaVita está no ar, e você pode visitá-lo [aqui](). A API do site foi feita usando um plano gratuito, portanto, caso a API tenha caído no momento em que você abrir o link, entre em contato conosco para colocar-mos ela novamente no ar. Com ela fora de ar, pode haver erros nos dados dos gráficos e na validação de usuário, tanto na página de login quanto na de cadastro.
+O site do NovaVita está no ar, e você pode visitá-lo [aqui]().
 
-Caso opte por rodar o site de maneira local, siga os passos abaixo:
+A API do site foi feita usando um plano gratuito, portanto, caso a API tenha caído no momento em que você abrir o link, entre em contato conosco para colocar-mos ela novamente no ar. Com ela fora de ar, pode haver erros nos dados dos gráficos e na validação de usuário, tanto na página de login quanto na de cadastro.
+
+Caso opte por rodar o site de maneira local, `siga os passos abaixo`:
 
 1. Certifique-se de ter o Node.js instalado em seu sistema antes de começar. Caso ainda não tenha, você pode baixá-lo [aqui](https://nodejs.org/en).
 2. Baixe a pasta do repositório.
@@ -83,7 +85,7 @@ Caso opte por rodar o site de maneira local, siga os passos abaixo:
 
 ⚠ Atenção: Essa API funcionará com o dispositivo Soul do Wokwi ligado.
 
-Para configurar a API do site, siga os passos abaixo que contém todas as informações necessárias:
+Para configurar a API do site, `siga os passos abaixo` que contém todas as informações necessárias:
 
 1. Baixe a pasta do repositório.
 2. Abra a pasta no Visual Studio Code (VSCode).
