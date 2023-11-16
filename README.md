@@ -109,6 +109,8 @@ Observação: O sensor infravermelho simula a pressão arterial, mas os valores 
 
 O protótipo do dispositivo Soul pode ser encontrado clicando [aqui](https://wokwi.com/projects/381491850878962689).
 
+O código do protótipo Soul no Wokwi possui a possiblidade de enviar um email para o paciente, ainda que o código de enviar email ainda esteja em sua fase inicial. Contudo, a versão final do dispositivo Soul será capaz de enviar email automaticamente caso a leitura de um dos sensores saia do padrão ideal.
+
 ⚠ Atenção: Este é apenas um protótipo com as ferramentas que o Wokwi pode fornecer. O dispositivo Soul tem como objetivo ser compacto e leve para ficar tranquilamente acoplado no corpo humano sem preocupações. Seus sensores serão de ponta e capazes de captar com precisão todos os dados necessários para monitorar o paciente.
 
 ---
