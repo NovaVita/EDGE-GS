@@ -24,23 +24,23 @@ Nosso desenvolvimento é guiado pelo arquétipo do Inocente/Idealista. Acreditam
 
 ---
 
-# **Descrição:**
+## **Descrição:**
 
 ---
 
-# **Solução:**
+## **Solução:**
 
 ---
 
-# **Configuração:**
+## **Configuração:**
 
 ---
 
-# **Wokwi:**
+## **Wokwi:**
 
 ---
 
-**Time:**
+## **Time:**
 
 |       Aluno       |     Rm     |   Turma   |
 | ----------------- | ---------- | --------- |
