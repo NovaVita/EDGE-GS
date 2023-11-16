@@ -40,10 +40,12 @@ Nosso desenvolvimento é guiado pelo arquétipo do Inocente/Idealista. Acreditam
 
 ---
 
-## **Como Contribuir:**
-- 🌐 Explore nossos projetos.
-- 🐛 Relate problemas ou sugira melhorias.
-- 🤝 Junte-se a nós na missão de transformar a saúde.
+**Time:**
+
+|       Aluno       |     Rm     |   Turma   |
+| ----------------- | ---------- | --------- |
+| Rony Ken Nagai    |   551549   |   1ESPF   |
+| Tomáz V. Carballo |   551417   |   1ESPF   |
 
 ---
 
@@ -55,6 +57,13 @@ Siga-nos para ficar atualizado sobre nossas inovações em saúde e tecnologia. 
 
 * [Rony Ken Nagai](https://www.linkedin.com/in/rony-nagai)
 * [Tomáz Versolato Carballo](https://www.linkedin.com/in/tomazcarballo/)
+
+---
+
+## **Como Contribuir:**
+- 🌐 Explore nossos projetos.
+- 🐛 Relate problemas ou sugira melhorias.
+- 🤝 Junte-se a nós na missão de transformar a saúde.
 
 ---
 
