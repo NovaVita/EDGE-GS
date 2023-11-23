@@ -72,7 +72,7 @@ O código do protótipo Soul no Wokwi possui a possiblidade de enviar um email p
 ⚠ Atenção: Este é apenas um protótipo com as ferramentas que o Wokwi pode fornecer. O dispositivo Soul tem como objetivo ser compacto e leve para ficar tranquilamente acoplado no corpo humano sem preocupações. Seus sensores serão de ponta e capazes de captar com precisão todos os dados necessários para monitorar o paciente.
 
 Ilustração do dispositivo Soul:
-![Texto Alternativo]()
+![Texto Alternativo](https://www.yankodesign.com/images/design_news/2018/05/auto-draft/dab_ecg_1.jpg)
 
 ---
 
