@@ -38,7 +38,7 @@ A NovaVita se compromete a impactar positivamente vidas, oferecendo uma abordage
 
 ---
 
-## **Solução**
+## **Solução / Diferencial**
 
 A NovaVita se propõe a revolucionar a prestação de cuidados de saúde, abordando as lacunas existentes na gestão de condições médicas e promovendo uma abordagem mais holística e orientada para o paciente. A solução proposta envolve dois elementos principais: o aplicativo NovaVita e o dispositivo de monitoramento Soul.
 
@@ -69,7 +69,7 @@ Você pode assistir ao vídeo mostrando o dispositivo clicando [aqui](https://ww
 
 ## Features Implementadas:
 
-* Botão de Home, Login, Sobre nós Submit, LogOut e Cadastrar;
+* Botão de Home, Login, Sobre nós, Submit, LogOut e Cadastrar;
 * Validação de usuário;
 * Responsividade;
 * Dashboard;
@@ -88,7 +88,7 @@ Você pode assistir ao vídeo mostrando o dispositivo clicando [aqui](https://ww
 4. No VSCode, abra o terminal.
 5. Execute o comando `npm install` para instalar as dependências necessárias.
 6. Após a instalação, rode o comando `npm run dev` para colocar o site no ar.
-7. Rode o comando `npm run dados` para colocar o JSON-server no ar (nesse JSON, contém os dados de cadastro dos usuários).
+7. Abra um outro terminal e rode o comando `npm run dados` para colocar o JSON-server no ar (nesse JSON, contém os dados de cadastro dos usuários).
 8. Para realizar o `login`, pode-se fazer seu `cadastro` ou usar o seguinte login já existente (`e-mail: a@a.com | senha: 123123123`)
 
 ---
@@ -111,7 +111,7 @@ Vale lembrar, para acessar os dados de um sensor específico, basta digitar as s
 * t: Temperatura
 * i: Pressão Arterial (infravermelho)
 * b: Batimento Cardíaco
-* o: Oxigênação
+* o: Oxigenação
 
 ---
 
@@ -120,10 +120,13 @@ Vale lembrar, para acessar os dados de um sensor específico, basta digitar as s
 ### Observação:
 
 * O sensor infravermelho simula a pressão arterial, mas os valores não correspondem com a pressão de um ser humano real, pois estamos usando a ferramenta que o Wokwi fornece para fazer a simulação do infravermelho.
-* O código do protótipo Soul no Wokwi possui a possiblidade de enviar um email para o paciente, ainda que o código de enviar email ainda esteja em sua fase inicial. Para o e-mail ser enviado, os valores dos sensores precisam sair do padrão estabelicido no código, sendo esse padrão: (`Temperatura: 36`)(`Potenciômetros: 100`). Portanto, caso deseja receber e-mail como teste, mude a temperatura para menor que 35°C ou maior que 38°C, e o potenciômetro para um valor menor que 60 ou acima de 120.
-* Ao abrir o protótipo Soul no Wokwi, alguns sensores se encontrarão no valor zerado, como o caso do potenciômetro. Após a inicialização da simulação, altere os valores para que a condição de enviar e-mail não seja ativada.
-* Ao iniciar a simulação do Wokwi, pode demorar um pouco para inicializar, cerca de `90 segundos`para que ela de fato inicie, portanto não se preocupe se demorar.
 * Lembre-se também de configurar seu e-mail na linha `23` do código, para que possa receber o e-mail de quando um sensor capta um valor fora do padrão. De preferência, use um e-mail diferente do seu e-mail principal, para evitar que ocorra um spam de e-mails enviados pelo código.
+* Ao abrir o protótipo Soul no Wokwi, alguns sensores se encontrarão no valor zerado, como o caso do potenciômetro. Após a inicialização da simulação, altere os valores para que a condição de enviar e-mail não seja ativada.
+* O código do protótipo Soul no Wokwi possui a possiblidade de enviar um email para o paciente, ainda que o código de enviar email ainda esteja em sua fase inicial. Para o e-mail ser enviado, os valores dos sensores precisam sair do padrão estabelicido no código, sendo esse padrão: (`Temperatura: menor que 36°C e maior que 38°C`)(`Potenciômetro da esquerda: menor que 60 e maior que 120`)(`Potenciômetro da direita: menor que 90`).
+* Ao iniciar a simulação do Wokwi, pode demorar um pouco para inicializar, cerca de `90 segundos`para que ela de fato inicie, portanto não se preocupe se demorar.
+* Ao iniciar a simulação do Wokwi, pode acontecer de ocorrer o seguinte erro (`Build server failure: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON`). Mas não se preocupe, pare o start da simulação e recarregue a página, ao fazer esse processo, o site recarregará e aparecerá um botão de `refresh`. Clique no botão e inicie novamente a simulação do Wokwi. Segue imagem abaixo do botão de refresh.
+
+![Texto Alternativo](https://raw.githubusercontent.com/NovaVita/EDGE-GS/main/imagem/wokwi-refresh.png)
 
 O protótipo do dispositivo Soul pode ser encontrado clicando [aqui](https://wokwi.com/projects/381491850878962689).
 
