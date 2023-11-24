@@ -61,13 +61,65 @@ O Soul é um dispositivo de monitoramento de saúde que se integra perfeitamente
 
 ---
 
+## Features Implementadas:
+
+* Botão de Home, Login, Sobre nós Submit, LogOut e Cadastrar;
+* Validação de usuário;
+* Responsividade;
+* Dashboard;
+* JSON-server;
+* API.
+
+---
+
+## **Configuração**
+
+`Siga os passos abaixo`:
+
+1. Certifique-se de ter o Node.js instalado em seu sistema antes de começar. Caso ainda não tenha, você pode baixá-lo [aqui](https://nodejs.org/en).
+2. Baixe a pasta do repositório com o nome de `edge-site`.
+3. Abra a pasta no Visual Studio Code (VSCode).
+4. No VSCode, abra o terminal.
+5. Execute o comando `npm install` para instalar as dependências necessárias.
+6. Após a instalação, rode o comando `npm run dev` para colocar o site no ar.
+7. Rode o comando `npm run dados` para colocar o JSON-server no ar (nesse JSON, contém os dados de cadastro dos usuários).
+8. Para realizar o `login`, pode-se fazer seu `cadastro` ou usar o seguinte login já existente (`e-mail: a@a.com | senha: 123123123`)
+
+---
+
+## Configuração da API do Site Local
+
+⚠ Atenção: Essa API funcionará com o dispositivo Soul do Wokwi ligado. Caso o dispositivo esteja desligado, ela passará para os dashboards do site os últimos dados lidos.
+
+Para configurar a API do site, `siga os passos abaixo` que contém todas as informações necessárias:
+
+1. Baixe a pasta do repositório com o nome de `edge-api`.
+2. Abra a pasta no Visual Studio Code (VSCode).
+3. No VSCode, abra o terminal.
+4. Execute o comando `npm install` para instalar as dependências necessárias.
+5. No terminal do VSCode, execute o comando `node script js`.
+6. A API estará agora disponível para acesso em http://localhost:4000.
+
+Vale lembrar, para acessar os dados de um sensor específico, basta digitar as seguintes iniciais seguidas de uma barra (`/`) no fim do `http`, como mostrado no exemplo:
+* Exemplo para acessar os dados de temperatura: http://localhost:4000/t
+* t: Temperatura
+* i: Pressão Arterial (infravermelho)
+* b: Batimento Cardíaco
+* o: Oxigênação
+
+---
+
 ## **Wokwi**
 
-Observação: O sensor infravermelho simula a pressão arterial, mas os valores não correspondem com a pressão de um ser humano real, pois estamos usando a ferramenta que o Wokwi fornece para fazer a simulação do infravermelho.
+### Observação:
+
+* O sensor infravermelho simula a pressão arterial, mas os valores não correspondem com a pressão de um ser humano real, pois estamos usando a ferramenta que o Wokwi fornece para fazer a simulação do infravermelho.
+* O código do protótipo Soul no Wokwi possui a possiblidade de enviar um email para o paciente, ainda que o código de enviar email ainda esteja em sua fase inicial. Para o e-mail ser enviado, os valores dos sensores precisam sair do padrão estabelicido no código, sendo esse padrão: (`Temperatura: 36`)(`Potenciômetros: 100`). Portanto, caso deseja receber e-mail como teste, mude a temperatura para menor que 35°C ou maior que 38°C, e o potenciômetro para um valor menor que 60 ou acima de 120.
+* Ao abrir o protótipo Soul no Wokwi, alguns sensores se encontrarão no valor zerado, como o caso do potenciômetro. Após a inicialização da simulação, altere os valores para que a condição de enviar e-mail não seja ativada.
+* Ao iniciar a simulação do Wokwi, pode demorar alguns segundos para que ela de fato inicie, portanto não se preocupe se demorar.
+* Lembre-se também de configurar seu e-mail na linha `23` do código, para que possa receber o e-mail de quando um sensor capta um valor fora do padrão. De preferência, use um e-mail diferente do seu e-mail principal, para evitar que ocorra um spam de e-mails enviados pelo código.
 
 O protótipo do dispositivo Soul pode ser encontrado clicando [aqui](https://wokwi.com/projects/381491850878962689).
-
-O código do protótipo Soul no Wokwi possui a possiblidade de enviar um email para o paciente, ainda que o código de enviar email ainda esteja em sua fase inicial. Contudo, a versão final do dispositivo Soul será capaz de enviar email automaticamente caso a leitura de um dos sensores saia do padrão ideal.
 
 ⚠ Atenção: Este é apenas um protótipo com as ferramentas que o Wokwi pode fornecer. O dispositivo Soul tem como objetivo ser compacto e leve para ficar tranquilamente acoplado no corpo humano sem preocupações. Seus sensores serão de ponta e capazes de captar com precisão todos os dados necessários para monitorar o paciente.
 
