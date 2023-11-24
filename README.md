@@ -61,6 +61,12 @@ O Soul é um dispositivo de monitoramento de saúde que se integra perfeitamente
 
 ---
 
+## **Vídeo**
+
+Você pode assistir ao vídeo mostrando o dispositivo clicando [aqui](https://www.youtube.com/watch?v=-3kvrQLcPUk&t=25s&ab_channel=Tocomaz).
+
+---
+
 ## Features Implementadas:
 
 * Botão de Home, Login, Sobre nós Submit, LogOut e Cadastrar;
