@@ -116,7 +116,7 @@ Vale lembrar, para acessar os dados de um sensor específico, basta digitar as s
 * O sensor infravermelho simula a pressão arterial, mas os valores não correspondem com a pressão de um ser humano real, pois estamos usando a ferramenta que o Wokwi fornece para fazer a simulação do infravermelho.
 * O código do protótipo Soul no Wokwi possui a possiblidade de enviar um email para o paciente, ainda que o código de enviar email ainda esteja em sua fase inicial. Para o e-mail ser enviado, os valores dos sensores precisam sair do padrão estabelicido no código, sendo esse padrão: (`Temperatura: 36`)(`Potenciômetros: 100`). Portanto, caso deseja receber e-mail como teste, mude a temperatura para menor que 35°C ou maior que 38°C, e o potenciômetro para um valor menor que 60 ou acima de 120.
 * Ao abrir o protótipo Soul no Wokwi, alguns sensores se encontrarão no valor zerado, como o caso do potenciômetro. Após a inicialização da simulação, altere os valores para que a condição de enviar e-mail não seja ativada.
-* Ao iniciar a simulação do Wokwi, pode demorar alguns segundos para que ela de fato inicie, portanto não se preocupe se demorar.
+* Ao iniciar a simulação do Wokwi, pode demorar um pouco para inicializar, cerca de `90 segundos`para que ela de fato inicie, portanto não se preocupe se demorar.
 * Lembre-se também de configurar seu e-mail na linha `23` do código, para que possa receber o e-mail de quando um sensor capta um valor fora do padrão. De preferência, use um e-mail diferente do seu e-mail principal, para evitar que ocorra um spam de e-mails enviados pelo código.
 
 O protótipo do dispositivo Soul pode ser encontrado clicando [aqui](https://wokwi.com/projects/381491850878962689).
